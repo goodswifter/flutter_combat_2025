@@ -1,3 +1,6 @@
+analyzer:
+  errors:
+    avoid_print: ignore
 include: package:flutter_lints/flutter.yaml
 
 linter:
@@ -189,7 +192,7 @@ linter:
 
     # 十九、Flutter集合融合部分
     # 避免生产环境使用print
-    - avoid_print
+    # - avoid_print
     # 去掉无用的container节点
     - avoid_unnecessary_containers
     # 避免在flutter代码中引入web相关的库

@@ -22,6 +22,12 @@ dev_dependencies:
 flutter:
   uses-material-design: true
 
+  # 字体
+  fonts:
+    - family: Din
+      fonts:
+        - asset: assets/fonts/D-DIN-PRO-600-SemiBold.otf
+
   # 资源
   assets:
     - assets/
