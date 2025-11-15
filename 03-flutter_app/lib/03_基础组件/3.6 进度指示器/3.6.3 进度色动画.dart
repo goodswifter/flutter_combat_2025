@@ -34,23 +34,21 @@ class _ProgressColorDemoState extends State<ProgressColorDemo> with SingleTicker
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text('进度色动画示例')),
-      body: SingleChildScrollView(
-        child: Column(
-          mainAxisAlignment: .center,
-          children: <Widget>[
-            Padding(
-              padding: const EdgeInsets.all(16),
-              child: LinearProgressIndicator(
-                backgroundColor: Colors.grey[200],
-                valueColor: ColorTween(
-                  begin: Colors.grey,
-                  end: Colors.blue,
-                ).animate(_animationController), // 从灰色变成蓝色
-                value: _animationController.value,
-              ),
+      body: Column(
+        mainAxisAlignment: .center,
+        children: <Widget>[
+          Padding(
+            padding: const EdgeInsets.all(16),
+            child: LinearProgressIndicator(
+              backgroundColor: Colors.grey[200],
+              valueColor: ColorTween(
+                begin: Colors.grey,
+                end: Colors.red,
+              ).animate(_animationController), // 从灰色变成蓝色
+              value: _animationController.value,
             ),
-          ],
-        ),
+          ),
+        ],
       ),
     );
   }
