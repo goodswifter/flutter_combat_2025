@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '04_布局类组件/4.8 LayoutBuilder、AfterLayout/4.8.2 AfterLayout.dart';
+import '04_布局类组件/4.8 LayoutBuilder、AfterLayout/4.8.2 AfterLayout02.dart';
 
 void main() {
   runApp(const MyApp());
@@ -39,7 +39,8 @@ class MyApp extends StatelessWidget {
       // 4.8.1 LayoutBuilder
       // home: LayoutBuilderDemo(),
       // 4.8.2 AfterLayout
-      home: AfterLayoutDemo(),
+      // home: AfterLayoutDemo(),
+      home: AfterLayoutDemo2(),
     );
   }
 }
