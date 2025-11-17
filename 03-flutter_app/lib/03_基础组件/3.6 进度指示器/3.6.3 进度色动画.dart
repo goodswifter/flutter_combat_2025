@@ -21,7 +21,7 @@ class _ProgressColorDemoState extends State<ProgressColorDemo> with SingleTicker
       duration: const Duration(seconds: 3), // 动画持续时间
     );
     _animationController.forward(); // 开始动画
-    _animationController.addListener(() => setState(() => {}));
+    _animationController.addListener(() => setState(() => <dynamic, dynamic>{}));
   }
 
   @override

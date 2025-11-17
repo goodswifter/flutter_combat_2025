@@ -1,7 +1,7 @@
 analyzer:
   errors:
     avoid_print: ignore
-    always_specify_types: ignore
+    # always_specify_types: ignore
 include: package:flutter_lints/flutter.yaml
 
 linter:
